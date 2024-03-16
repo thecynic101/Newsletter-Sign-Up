@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Sign-Up Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/fonts/Roboto-Bold.ttf">
+    <link rel="stylesheet" href="assets/fonts/Roboto-Regular.ttf">
+</head>
+<body>
+
+<div class="first-page">
+<!-- first page text -->
+    <div class="fp-text">
+<h1>Stay updated!</h1>
+<p>Join 60,000+ product managers receiving monthly <br>updates on: </p>
+<li>
+    <ul><img src="assets/images/icon-list.svg" alt="list-icon"> <p>Product discovery and building what matters</p></ul>
+    <ul><img src="assets/images/icon-list.svg" alt="list-icon"> <p>Measuring to ensure updates are a success</p></ul>
+    <ul><img src="assets/images/icon-list.svg" alt="list-icon"> <p>And much more!</p></ul>
+    
+</li>
+<form>
+    <div class="error-msg">
+        <span>Email address</span>
+        <p id="err-msg"></p>
+    </div>
+    <input required id="form-input" type="email" placeholder="email@company.com">
+    <button type="button" id="submit-bttn">Subscribe to monthly newsletter</button>
+</form>
+</div>
+<div class="img-div">
+    <img src="assets/images/illustration-sign-up-desktop.svg" alt="">
+</div>
+</div>
+<!-- Thank You Page -->
+
+<div class="thankyou-page">
+    <img src="assets/images/icon-success.svg" alt="success-icon">
+    <h1>Thanks for subscribing!</h1>
+    <span>A confirmation email has been sent to <p id="thankyou-msg"></p> Please open it and click the button inside to confirm your subscription.</span>
+    <button type="button">Dismiss message</button>  
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

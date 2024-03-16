@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(234, 29%, 20%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: roboto, regular;
+}
+
+.first-page{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.2rem;
+    color: hsl(235, 18%, 26%);
+}
+
+.fp-text{
+    justify-content: center;
+    margin-top: 90px;
+    padding: 0px 40px;
+}
+
+
+.fp-text h1{
+    font-size: 2.5rem;
+    color: hsl(235, 18%, 26%);
+    margin-bottom: 15px;
+    font-family: roboto, bold;
+}
+
+ .first-page li{
+    list-style-type: none;
+    margin-top: 20px;
+    font-family: roboto, regular;
+}
+
+.first-page ul{
+    display: flex;
+    line-height: 2.5;
+    gap: 10px;
+}
+
+.error-msg{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 2px;
+    gap: 9.5rem;
+}
+
+.error-msg span{
+    font-weight: 700;
+    color: hsl(235, 18%, 26%);
+}
+
+.error-msg p{
+    color: hsl(4, 100%, 67%);
+    font-weight: 500;
+}
+
+form{
+    display: grid;
+    margin-top: 85px;
+}
+
+.fp-text input{
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    margin: 8px 0;
+    padding: 14px;
+    border: 1px solid;
+}
+
+.fp-text button{
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    margin: 8px 0;
+    padding: 14px;
+    border: none;
+    background-color: hsl(235, 18%, 26%);
+    color: white;
+    cursor: pointer;
+}
+
+.fp-text button:hover{
+    background-color: hsl(4, 100%, 67%);
+}
+
+/* Styling for Thank You Page */
+
+.thankyou-page{
+    width: 450px;
+    display: grid;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    display: none;
+}
+
+.thankyou-page img{
+margin-bottom: 17px;
+}
+
+.thankyou-page h1{
+    color: hsl(235, 18%, 26%);
+    margin-bottom: 17px;
+    font-weight: 700;
+}
+.thankyou-page span{
+    line-height: 1.5;
+}
+
+.thankyou-page p{
+    font-weight: 700;
+    color: hsl(235, 18%, 26%);
+}
+
+.thankyou-page button{
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    margin: 8px 0;
+    padding: 14px;
+    border: none;
+    background-color: hsl(235, 18%, 26%);
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.thankyou-page button:hover{
+    background-color: hsl(4, 100%, 67%);
+}
+
+@media screen and (max-width: 375px){
+
+    body{
+        background-color: white;
+    }
+    .first-page{
+        flex-direction: column-reverse;
+    }
+    .first-page h1{
+        font-size: 45px;
+    }
+    .first-page p{
+        font-size: 13px;
+    }
+
+    .error-msg {
+        font-size: 12px;
+        gap: 5.5rem;
+        margin-bottom: 0.5px;
+    }
+.fp-text{
+    margin: 12px 4px;
+}
+.img-div{
+    content: url(assets/images/illustration-sign-up-mobile.svg);
+    /* border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px ; */
+}
+.thankyou-page{
+width: 375px;
+justify-content: center;
+align-items: center;
+
+}
+.thankyou-page button{
+    width: 300px;
+    margin-top: 15rem;
+}
+}
+
