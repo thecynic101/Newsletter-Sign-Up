@@ -27,9 +27,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/images/Screenshot%20(41).png)
-![](./assets/images/Screenshot%20(42).png)
-![](./assets/images/Screenshot%20(43).png)
+[](./assets/images/Screenshot%20(41).png)
+[](./assets/images/Screenshot%20(42).png)
+[](./assets/images/Screenshot%20(43).png)
 
 
 ### Links
