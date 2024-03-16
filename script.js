@@ -36,3 +36,5 @@ document.querySelector('#err-msg').innerHTML = 'Valid email required'
     }
 })
 
+// I was unable to validate the input form for the ElementInternals. The only way I found to do it was regex but i do not understand how it works.
+
