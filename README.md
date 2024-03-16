@@ -27,15 +27,15 @@ Users should be able to:
 
 ### Screenshot
 
-[](./assets/images/Screenshot%20(41).png)
-[](./assets/images/Screenshot%20(42).png)
-[](./assets/images/Screenshot%20(43).png)
+[Screenshot 1](./assets/images/Screenshot%20(41).png)
+[Screenshot 2](./assets/images/Screenshot%20(42).png)
+[Screenshot 3](./assets/images/Screenshot%20(43).png)
 
 
 ### Links
 
-- Solution URL: [](https://github.com/thecynic101/Newsletter-Sign-Up)
-- Live Site URL: [](https://thecynic101.github.io/Newsletter-Sign-Up/)
+- Solution URL: [Solution url](https://github.com/thecynic101/Newsletter-Sign-Up)
+- Live Site URL: [Live site](https://thecynic101.github.io/Newsletter-Sign-Up/)
 
 
 ### Built with
